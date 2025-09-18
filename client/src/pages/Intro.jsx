@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import MatchCard from "./MatchCard";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import data from "../Data/Score.json";
 
 export default function Intro() {
   const url =
@@ -29,28 +30,36 @@ export default function Intro() {
   }, []);
 
   console.log(Match);
+  console.log(data.data);
+  var liveMatch;
 
-  //filter to get live matches from all matches
-//   const getFilteredItem = (item) => {
-//     return item.filter((val) => {
-//       if (val.ms === "live") {
-//         return true;
-//       }
-//     });
-//   };
+  const getFilteredItem = (item) => {
+    return (item.filter((val) => {
+      if (val.ms === "live" ) {
+        return true;
+      }
+    }));
+  };
 
-  const liveMatch = [1,2,3,4,5,6,7,8,9];
-//   const liveMatch = getFilteredItem(Match);
+  if (Match) {
+    //   filter to get live matches from all matches
+    console.log("hi")
+    liveMatch = getFilteredItem(Match);
+  } else {
+    console.log("hi*/*9846")
+    liveMatch = getFilteredItem(data.data);
+  }
+
   console.log(liveMatch);
 
   //filter to get live matches from all matches
 
   const scrollLeft = () => {
     document.getElementById("content").scrollLeft -= 150;
-}
-const scrollRight = () => {
+  };
+  const scrollRight = () => {
     document.getElementById("content").scrollLeft += 150;
-}
+  };
 
   return (
     <div className="relative">
@@ -62,7 +71,10 @@ const scrollRight = () => {
           <FiChevronRight />
         </button>
       </div>
-      <div id="content" className="flex overflow-scroll h-[150px] overflow-x-auto scroll-smooth  scrollbar-hide ">
+      <div
+        id="content"
+        className="flex overflow-scroll h-[150px] overflow-x-auto scroll-smooth  scrollbar-hide "
+      >
         {liveMatch.map((value, key) => {
           return (
             <div>
