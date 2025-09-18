@@ -1,0 +1,448 @@
+{
+    
+  "data": [
+    {
+      "id": "e09b2507-81a0-4166-9621-c3bdf5877e13",
+      "name": "Namibia vs Karnataka, 3rd Match",
+      "matchType": "odi",
+      "status": "Karnataka won by 9 wkts",
+      "venue": "Wanderers Cricket Ground, Windhoek",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T07:30:00",
+      "teams": [
+        "Namibia",
+        "Karnataka"
+      ],
+      "teamInfo": [
+        {
+          "name": "Karnataka",
+          "shortname": "KAR",
+          "img": "https://g.cricapi.com/iapi/38-637897796420763611.png?w=48"
+        },
+        {
+          "name": "Namibia",
+          "shortname": "NAM",
+          "img": "https://g.cricapi.com/iapi/53-637877082656229722.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 226,
+          "w": 10,
+          "o": 45.1,
+          "inning": "Namibia Inning 1"
+        },
+        {
+          "r": 227,
+          "w": 1,
+          "o": 33.4,
+          "inning": "Karnataka Inning 1"
+        }
+      ],
+      "series_id": "d2d3482d-7e79-4ed1-9e2f-865b1d16e20c",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "c816e663-367e-4fd7-984a-04acb438cc14",
+      "name": "Hampshire vs Somerset, South Group",
+      "matchType": "t20",
+      "status": "Hampshire won by 5 runs",
+      "venue": "The Rose Bowl, Southampton",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T18:00:00",
+      "teams": [
+        "Hampshire",
+        "Somerset"
+      ],
+      "teamInfo": [
+        {
+          "name": "Hampshire",
+          "shortname": "HAM",
+          "img": "https://g.cricapi.com/iapi/1122-637885550993657486.webp?w=48"
+        },
+        {
+          "name": "Somerset",
+          "shortname": "SOM",
+          "img": "https://g.cricapi.com/iapi/1131-637885552070524344.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 178,
+          "w": 4,
+          "o": 20,
+          "inning": "Hampshire Inning 1"
+        },
+        {
+          "r": 173,
+          "w": 6,
+          "o": 20,
+          "inning": "Somerset Inning 1"
+        }
+      ],
+      "series_id": "37fa8107-2df7-4779-81f6-d19969429dfe",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ea1c5a14-a0bb-4da4-8056-e82489e27484",
+      "name": "Kent vs Essex, South Group",
+      "matchType": "t20",
+      "status": "Essex won by 4 wkts",
+      "venue": "St Lawrence Ground, Canterbury",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T17:30:00",
+      "teams": [
+        "Kent",
+        "Essex"
+      ],
+      "teamInfo": [
+        {
+          "name": "Essex",
+          "shortname": "ESX",
+          "img": "https://g.cricapi.com/iapi/1119-637885549753088458.webp?w=48"
+        },
+        {
+          "name": "Kent",
+          "shortname": "KENT",
+          "img": "https://g.cricapi.com/iapi/1124-637885551212175895.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 150,
+          "w": 8,
+          "o": 20,
+          "inning": "Kent Inning 1"
+        },
+        {
+          "r": 155,
+          "w": 6,
+          "o": 18.2,
+          "inning": "Essex Inning 1"
+        }
+      ],
+      "series_id": "37fa8107-2df7-4779-81f6-d19969429dfe",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "705c0852-51ff-42dd-ab93-7d50fa488cfc",
+      "name": "Glamorgan vs Surrey, South Group",
+      "matchType": "t20",
+      "status": "Surrey won by 65 runs",
+      "venue": "Sophia Gardens, Cardiff",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T17:30:00",
+      "teams": [
+        "Glamorgan",
+        "Surrey"
+      ],
+      "teamInfo": [
+        {
+          "name": "Glamorgan",
+          "shortname": "GLAM",
+          "img": "https://g.cricapi.com/iapi/1120-637889090390357869.webp?w=48"
+        },
+        {
+          "name": "Surrey",
+          "shortname": "SUR",
+          "img": "https://g.cricapi.com/iapi/1133-637885552361099530.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 236,
+          "w": 2,
+          "o": 20,
+          "inning": "Surrey Inning 1"
+        },
+        {
+          "r": 171,
+          "w": 8,
+          "o": 20,
+          "inning": "Glamorgan Inning 1"
+        }
+      ],
+      "series_id": "37fa8107-2df7-4779-81f6-d19969429dfe",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "30c643dc-5f52-4802-84a9-e2a8fa3b4c8f",
+      "name": "Warwickshire vs Derbyshire, North Group",
+      "matchType": "t20",
+      "status": "Derbyshire won by 6 wkts",
+      "venue": "Edgbaston, Birmingham",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T17:30:00",
+      "teams": [
+        "Warwickshire",
+        "Derbyshire"
+      ],
+      "teamInfo": [
+        {
+          "name": "Derbyshire",
+          "shortname": "DERB",
+          "img": "https://g.cricapi.com/iapi/1117-637889091569915358.webp?w=48"
+        },
+        {
+          "name": "Warwickshire",
+          "shortname": "WRKS",
+          "img": "https://g.cricapi.com/iapi/1137-637885552592685258.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 203,
+          "w": 7,
+          "o": 20,
+          "inning": "Warwickshire Inning 1"
+        },
+        {
+          "r": 207,
+          "w": 4,
+          "o": 19.3,
+          "inning": "Derbyshire Inning 1"
+        }
+      ],
+      "series_id": "37fa8107-2df7-4779-81f6-d19969429dfe",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "6f8695af-f48e-4a0c-a053-37b946e25ca2",
+      "name": "Lancashire vs Worcestershire, North Group",
+      "matchType": "t20",
+      "status": "Lancashire won by 4 wkts",
+      "venue": "Stanley Park, Blackpool",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T16:00:00",
+      "teams": [
+        "Lancashire",
+        "Worcestershire"
+      ],
+      "teamInfo": [
+        {
+          "name": "Lancashire",
+          "shortname": "LNCS",
+          "img": "https://g.cricapi.com/iapi/1125-637885551497331567.webp?w=48"
+        },
+        {
+          "name": "Worcestershire",
+          "shortname": "WRCS",
+          "img": "https://g.cricapi.com/iapi/1138-637889091123850841.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 177,
+          "w": 9,
+          "o": 20,
+          "inning": "Worcestershire Inning 1"
+        },
+        {
+          "r": 181,
+          "w": 6,
+          "o": 19.3,
+          "inning": "Lancashire Inning 1"
+        }
+      ],
+      "series_id": "37fa8107-2df7-4779-81f6-d19969429dfe",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "8a9dcefb-7620-4df7-9bf2-2463a957423d",
+      "name": "Sri Lanka vs Afghanistan, 3rd ODI",
+      "matchType": "odi",
+      "status": "Sri Lanka won by 9 wkts",
+      "venue": "Mahinda Rajapaksa International Stadium, Hambantota",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T09:00:00",
+      "teams": [
+        "Sri Lanka",
+        "Afghanistan"
+      ],
+      "teamInfo": [
+        {
+          "name": "Afghanistan",
+          "shortname": "AFG",
+          "img": "https://g.cricapi.com/iapi/1-637877075587179422.webp?w=48"
+        },
+        {
+          "name": "Sri Lanka",
+          "shortname": "SL",
+          "img": "https://g.cricapi.com/iapi/4191-638101639309122979.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 116,
+          "w": 10,
+          "o": 22.2,
+          "inning": "Afghanistan Inning 1"
+        },
+        {
+          "r": 120,
+          "w": 1,
+          "o": 16,
+          "inning": "Sri Lanka Inning 1"
+        }
+      ],
+      "series_id": "72131b7a-dc43-4bb4-a162-492ca470f8da",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "c23b2e1d-5132-4fce-8a9e-33bdf8e6986a",
+      "name": "United Arab Emirates vs West Indies, 2nd ODI",
+      "matchType": "odi",
+      "status": "West Indies won by 78 runs",
+      "venue": "Sharjah Cricket Stadium, Sharjah",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T11:00:00",
+      "teams": [
+        "United Arab Emirates",
+        "West Indies"
+      ],
+      "teamInfo": [
+        {
+          "name": "United Arab Emirates",
+          "shortname": "UAE",
+          "img": "https://g.cricapi.com/iapi/92-637877081068315608.webp?w=48"
+        },
+        {
+          "name": "West Indies",
+          "shortname": "WI",
+          "img": "https://g.cricapi.com/iapi/100-637877077978319234.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 306,
+          "w": 10,
+          "o": 49.5,
+          "inning": "West Indies Inning 1"
+        },
+        {
+          "r": 228,
+          "w": 7,
+          "o": 50,
+          "inning": "United Arab Emirates Inning 1"
+        }
+      ],
+      "series_id": "93a8c2fa-9923-4961-b592-b6462cbe326e",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "5b270d56-89ea-4e48-a41b-ce85f9727650",
+      "name": "Ireland vs Bangladesh, 1st ODI",
+      "matchType": "odi",
+      "status": "No result (due to rain)",
+      "venue": "County Ground, Chelmsford",
+      "date": "2023-05-09",
+      "dateTimeGMT": "2023-05-09T09:45:00",
+      "teams": [
+        "Ireland",
+        "Bangladesh"
+      ],
+      "teamInfo": [
+        {
+          "name": "Bangladesh",
+          "shortname": "BAN",
+          "img": "https://g.cricapi.com/iapi/9-637877074109248302.webp?w=48"
+        },
+        {
+          "name": "Ireland",
+          "shortname": "IRE",
+          "img": "https://g.cricapi.com/iapi/33-637926315578500224.png?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 246,
+          "w": 9,
+          "o": 50,
+          "inning": "Bangladesh Inning 1"
+        },
+        {
+          "r": 65,
+          "w": 3,
+          "o": 16.3,
+          "inning": "Ireland Inning 1"
+        }
+      ],
+      "series_id": "5bf9e811-8a06-446e-8b23-eb17dfb5c071",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": false
+    },
+    {
+      "id": "5655ff68-1c44-4d7a-8e32-42058dac4ad3",
+      "name": "Australia vs India, Final",
+      "matchType": "test",
+      "status": "Day 1: Stumps - India opt to bowl",
+      "venue": "Kennington Oval, London",
+      "date": "2023-06-07",
+      "dateTimeGMT": "2023-06-07T10:00:00",
+      "teams": [
+        "Australia",
+        "India"
+      ],
+      "teamInfo": [
+        {
+          "name": "Australia",
+          "shortname": "AUS",
+          "img": "https://g.cricapi.com/iapi/6-637877070670541994.webp?w=48"
+        },
+        {
+          "name": "India",
+          "shortname": "IND",
+          "img": "https://g.cricapi.com/iapi/31-637877061080567215.webp?w=48"
+        }
+      ],
+      "score": [
+        {
+          "r": 327,
+          "w": 3,
+          "o": 85,
+          "inning": "Australia Inning 1"
+        }
+      ],
+      "series_id": "bd6e5de5-10fd-4476-9806-ddff16bf834c",
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": false
+    }
+  ]}
