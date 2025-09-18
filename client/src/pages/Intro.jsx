@@ -3,6 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import MatchCard from "./MatchCard";
+import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 export default function Intro() {
   const url =
@@ -30,25 +31,46 @@ export default function Intro() {
   console.log(Match);
 
   //filter to get live matches from all matches
-  const getFilteredItem = (item) => {
-    return item.filter((val) => {
-      if (val.ms == "live") {
-        return true;
-      }
-    });
-  };
+//   const getFilteredItem = (item) => {
+//     return item.filter((val) => {
+//       if (val.ms === "live") {
+//         return true;
+//       }
+//     });
+//   };
 
-  const liveMatch = getFilteredItem(Match);
+  const liveMatch = [1,2,3,4,5,6,7,8,9];
+//   const liveMatch = getFilteredItem(Match);
   console.log(liveMatch);
 
   //filter to get live matches from all matches
 
-  return <div className="flex overflow-scroll h-[150px] ">
-    
-    
-    
-    {liveMatch.map((value, key) => {
-      return <div ><MatchCard data={value}/></div>;
-    })}
-  </div>;
+  const scrollLeft = () => {
+    document.getElementById("content").scrollLeft -= 150;
+}
+const scrollRight = () => {
+    document.getElementById("content").scrollLeft += 150;
+}
+
+  return (
+    <div className="relative">
+      <div className="absolute top-[-25px] right-[10px]">
+        <button onClick={scrollLeft} className="p-1 m-1 rounded-full bg-white">
+          <FiChevronLeft />
+        </button>
+        <button onClick={scrollRight} className="p-1 m-1 rounded-full bg-white">
+          <FiChevronRight />
+        </button>
+      </div>
+      <div id="content" className="flex overflow-scroll h-[150px] overflow-x-auto scroll-smooth  scrollbar-hide ">
+        {liveMatch.map((value, key) => {
+          return (
+            <div>
+              <MatchCard data={value} />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
